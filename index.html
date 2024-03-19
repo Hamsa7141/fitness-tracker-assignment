@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Personal Fitness Tracker</title>
-  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="sytles/styles.css">
 </head>
 <body>
   <main class="container">
@@ -26,3 +26,17 @@
         <label for="exercise-name">Exercise Name:</label>
         <input type="text" name="exercise-name" id="exercise-name" placeholder="Enter exercise name">
         <label for="sets">Sets:</label>
+        <input type="number" name="sets" id="sets" min="1" placeholder="Enter number of sets">
+        <label for="reps">Reps:</label>
+        <input type="number" name="reps" id="reps" min="1" placeholder="Enter reps per set (or duration)">
+        <button type="submit">Add Workout</button>
+      </form>
+    </section>
+    <section class="workout-logs">
+      <h2>Workout Logs</h2>
+      <ul id="workout-list"></ul>
+    </section>
+  </main>
+  <script src="scripts/scripts.js"></script>
+</body>
+</html>
