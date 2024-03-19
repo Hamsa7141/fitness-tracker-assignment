@@ -1,0 +1,57 @@
+body {
+  font-family: sans-serif;
+  background-color: #f0f0f0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  color: #333;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+.workout-summary, .add-workout, .workout-logs {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+label {
+  flex: 1;
+  margin-bottom: 5px;
+}
+
+input, select {
+  flex: 2;
+  padding: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 5px;
+}
+
+.workout-logs ul {
+  list-style: none;
+  padding: 0;
+}
