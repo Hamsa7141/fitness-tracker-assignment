@@ -1,6 +1,10 @@
+/* stylesheet.css */
 body {
-  font-family: sans-serif;
-  background-color: #28b956;
+  font-family: Arial, sans-serif;
+  background-color: #F5F5F5;
+  color: #333;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
@@ -9,49 +13,60 @@ body {
   padding: 20px;
 }
 
-.header {
+header {
   text-align: center;
-  color: #333;
+  margin-bottom: 20px;
 }
 
-h1 {
-  font-size: 2em;
-  margin-bottom: 20px;
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #FF6347;
+}
+
+h1, h2 {
+  color: #FF6347;
 }
 
 section {
+  background-color: #FFF;
+  padding: 20px;
   margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
-  font-size: 1.5em;
-}
-
-.workout-summary, .add-workout, .workout-logs {
-  background-color: #fff;
-  padding: 15px;
-  border-radius: 5px;
-}
-
-form {
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 10px;
-}
-
-label {
-  flex: 1;
+form label {
+  display: block;
   margin-bottom: 5px;
 }
 
-input, select {
-  flex: 2;
+form input, form select {
   padding: 5px;
-  border: 1px solid #5f5fe4;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
-.workout-logs ul {
-  list-style: none;
+button {
+  background-color: #FF6347;
+  color: #FFF;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #E34234;
+}
+
+.log-list {
+  list-style-type: none;
   padding: 0;
+}
+
+.log-list li {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #F5F5F5;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
